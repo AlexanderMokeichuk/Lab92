@@ -7,8 +7,8 @@ import {Link as RouterLink, useNavigate} from "react-router-dom";
 import {registration} from "./usersThunks";
 import {selectRegisterError, unsetError} from "./usersSlice";
 import CloudUploadIcon from "@mui/icons-material/CloudUpload";
-import FileInput from "../../UI/components/FileInput/FileInput";
 import InputLabel from "@mui/material/InputLabel";
+import FileInput from "../../UI/components/FileInput/FileInput";
 
 
 const initialState: RegisterMutation = {
