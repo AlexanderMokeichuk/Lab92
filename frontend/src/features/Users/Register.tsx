@@ -72,9 +72,10 @@ const Register: React.FC = () => {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
-          bgcolor: "white",
           padding: 2,
           borderRadius: 2,
+          border: 1,
+          borderColor: "green",
         }}
       >
         <Avatar sx={{m: 1, bgcolor: "secondary.main"}}>
